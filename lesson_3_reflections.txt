@@ -7,3 +7,5 @@ repository instead of keeping all my work local.
 on to your local. It makes sense to have the changes updated on the remote 
 without pulling them to the local if no additional actions need to be taken on
 the files and we only want to share them on the forums.
+
+3. Forks are used within github to make a copy of a repository within github. Clones can be used to copy repositories from the local to another part o fthe local. Branches are linear and are used to define various points of commit within the local.
