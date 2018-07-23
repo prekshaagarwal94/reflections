@@ -1,0 +1,33 @@
+1. Viewing a diff between two versions of the file helped me see the bug that was
+introducted by making possible a parralel comparison between the two versions
+of the file. The line numbers helped locate the exact location of the difference
+and the identical ndentation helped easily compare the two files.
+
+2. Having easy access to the entire history of a file can make for more
+efficient programmers as access to old files makes it possible for us to 
+compare new and old versions and see exactly what changes were made and 
+how those changes resulted in improvements. Conversely, if a new bug is found
+it becomes easy to debug a file if we can easily access the old version and see exactly what new change caused the difference.
+
+3. A huge pro of manually choosing when to create a commit is that the user 
+has full control and flexibility on what files to save and when. Auto save can 
+sometimes save incomplete of useless versions of files without the users 
+knowledge. A con is that there is room for fault and human error as users may
+ forget to save their files.
+
+ 4. Git allows for multiple files to be saved in one commit because it is
+ designed for manual saving and for coding purposes, and in most coding
+ you are likely to use and make changes to more than one file for significant
+ changes. Google Docs on the other hand treats each file independently and auto
+ saves each version of the file periodically.
+
+ 5. Git log shows the log of all changes that were made with each git commit.
+ Git diff allows us to compare two versions of a file and see what changes were
+ made between the two versions.
+
+6. Version control allows for easy navigation between new and older versions of ffiles. The git checkout feature also allows restoring of a previous version of 
+the file. All these features would make me more comfortable making changes that
+could break something because I would still have a way of going back and fixing
+it relatively easily.
+
+7. I want to use Git to navigate through different files in a repository.
