@@ -2,3 +2,8 @@ When would you want to use a remote repository rather than keeping all your work
 
 If I want to share things with other groups of people or share it on the forum directly, I would want to use a remote
 repository instead of keeping all my work local.
+
+2. You might want to pull changes manually rather than have Git automatically up-to-date with your remote to allow for only significant changes to be pulled
+on to your local. It makes sense to have the changes updated on the remote 
+without pulling them to the local if no additional actions need to be taken on
+the files and we only want to share them on the forums.

@@ -5,4 +5,46 @@ and which files have changed since then.
 2. The staging area pushes file onto an intermediary "stage" before they can
 be committed. The working directory is where we push files onto the 
 staging area from. The repository is a collection of files which shows the 
-status of each file at the time of each commit. 
+status of each file at the time of each commit.
+
+3. Git diff --staged allows us to compare the staging area and the repository
+allowing us to ensure that only logical changes are committed to the repository
+We can reset and work between the working directory and the staging area to 
+ensure that only the changes that we want to commit are being committed to
+the reporsitory.
+
+4. Branches can allow you to make experimental changes that do not affect the
+master branch of the file. This helps keep the history organized as you can
+go back and play with the branches while still holding on to the original in
+the master. You can also swicth between the different branches to activate 
+a particular version.
+
+4. Branches can allow you to make experimental changes that do not affect the
+master branch of the file. This helps keep the history organized as you can
+go back and play with the branches while still holding on to the original in
+the master. You can also swicth between the different branches to activate 
+a particular version.
+
+4. Branches can allow you to make experimental changes that do not affect the
+master branch of the file. This helps keep the history organized as you can
+go back and play with the branches while still holding on to the original in
+the master. You can also swicth between the different branches to activate 
+a particular version.
+
+4. Branches can allow you to make experimental changes that do not affect the
+master branch of the file. This helps keep the history organized as you can
+go back and play with the branches while still holding on to the original in
+the master. You can also swicth between the different branches to activate 
+a particular version.
+
+5. The diagrams help break down the structure of my file and see where the
+branches connect with one another and what the parent for each of the branches
+is.
+
+6. The result of merging two branches together is that it allows for changes in different branches to be merged into a single branch that may now act as the master branch with changes from both branches included.
+
+7. auto merging is useful but manual merging allows for conflict resolution 
+before merging branches. This ensures that if different changes were made to teh same file then the user chooses which change to commit to the branch before
+merging it with another branch.
+
+ 
