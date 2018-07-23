@@ -1,0 +1,8 @@
+1. When you initialize a git repository the repository shows the files that are
+ in the current directory as untracked files. A git status shows the last commit 
+and which files have changed since then.
+
+2. The staging area pushes file onto an intermediary "stage" before they can
+be committed. The working directory is where we push files onto the 
+staging area from. The repository is a collection of files which shows the 
+status of each file at the time of each commit. 
